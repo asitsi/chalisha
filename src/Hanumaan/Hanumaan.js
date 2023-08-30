@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 const Hanumaan = () => {
     return (
@@ -33,6 +34,8 @@ const Hanumaan = () => {
                             return <strong key={index}>{item.doha.match(/^[^|]*/)[0]}<br /></strong>
                         })}
                     </div>
+
+                    <Link to={'/shani'}>Shani dev</Link>
 
                 </div>
             </div>

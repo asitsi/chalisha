@@ -13,7 +13,10 @@ const Shani = () => {
 
             <div className='container'>
                 <div className='row'>
-                    <Header text={'Hanumaan Chalisha'} />
+                    <Header text={'Shani Chalisha'} />
+                    <div>
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/873/825/desktop-wallpaper-dev-lord-shani-thumbnail.jpg" alt='image' class="responsive" width="600" height="400" />
+                    </div>
                     <div>
                         {Doha.length > 0 && Doha.map((item, index) => {
                             return <strong key={index}>{item.doha}<br /></strong>
