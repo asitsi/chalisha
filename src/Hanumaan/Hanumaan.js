@@ -15,6 +15,9 @@ const Hanumaan = () => {
                 <div className='row'>
                     <Header text={'Hanumaan Chalisha'} />
                     <div>
+                        <img src="https://cdn.pixabay.com/photo/2021/02/09/13/02/hanuman-5998491_1280.jpg" alt='image' class="responsive" width="600" height="400" />
+                    </div>
+                    <div>
                         {Doha.length > 0 && Doha.map((item, index) => {
                             return <strong key={index}>{item.doha}<br /></strong>
                         })}
