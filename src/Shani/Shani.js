@@ -15,22 +15,22 @@ const Shani = () => {
                 <div className='row'>
                     <Header text={'Shani Chalisha'} />
                     <div>
-                        <img src="https://e1.pxfuel.com/desktop-wallpaper/873/825/desktop-wallpaper-dev-lord-shani-thumbnail.jpg" alt='img' class="responsive" width="600" height="400" />
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/873/825/desktop-wallpaper-dev-lord-shani-thumbnail.jpg" alt='img' className="responsive" width="600" height="400" />
                     </div>
                     <div>
                         {Doha.length > 0 && Doha.map((item, index) => {
-                            return <strong key={index}>{item.doha}<br /></strong>
+                            return <strong key={index} className='S-fontSize'>{item.doha}<br /></strong>
                         })}
                     </div>
                     <div className='row'>
                         {Chalisha.length > 0 && Chalisha.map((item, index) => {
-                            return <p key={index}>{item.chopai.split(" | ")[0]}<br /></p>
+                            return <p key={index} className='fontSize'>{item.chopai.split(" | ")[0]}<br /></p>
                         })}
                     </div>
 
                     <div>
                         {Doha2.length > 0 && Doha2.map((item, index) => {
-                            return <strong key={index}>{item.doha.match(/^[^|]*/)[0]}<br /></strong>
+                            return <strong key={index} className='S-fontSize'>{item.doha.match(/^[^|]*/)[0]}<br /></strong>
                         })}
                     </div>
 

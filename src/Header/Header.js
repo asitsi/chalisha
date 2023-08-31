@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = ({text}) => {
   return (
-    <div>{text}</div>
+    <h1 className='fontsize Heading'>{text}</h1>
   )
 }
 
