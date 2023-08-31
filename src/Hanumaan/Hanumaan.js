@@ -20,7 +20,7 @@ const Hanumaan = () => {
                     </div>
                     <div>
                         {Doha.length > 0 && Doha.map((item, index) => {
-                            return <strong key={index} className='fontSize'>{item.doha}<br /></strong>
+                            return <strong key={index} className='S-fontSize'>{item.doha}<br /></strong>
                         })}
                     </div>
                     <div className='row'>
@@ -31,7 +31,7 @@ const Hanumaan = () => {
 
                     <div>
                         {Doha2.length > 0 && Doha2.map((item, index) => {
-                            return <strong key={index} className='fontSize'>{item.doha.match(/^[^|]*/)[0]}<br /></strong>
+                            return <strong key={index} className='S-fontSize'>{item.doha.match(/^[^|]*/)[0]}<br /></strong>
                         })}
                     </div>
 
