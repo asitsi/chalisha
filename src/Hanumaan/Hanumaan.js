@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Hanumaan = () => {
     return (
         <>
+              {/* TODO : Add SEO ( Using helmet) add title discription & search tag */}
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Hanumaan Chalisha</title>

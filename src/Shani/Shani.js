@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 const Shani = () => {
     return (
         <>
+              {/* TODO : Add SEO ( Using helmet) add title discription & search tag */}
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Shani Chalisha</title>

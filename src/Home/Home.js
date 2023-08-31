@@ -2,17 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 
-const Card = ({ imageUrl }) => {
-  return (
-    <div className="card">
-      <img src={imageUrl} className="card-image" />
-    </div>
-  );
-};
-
 const Home = () => {
   return (
     <div className='container'>
+      {/* TODO : Add SEO ( Using helmet) add title discription & search tag */}
       <Header text={'Chalisha List'} />
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh', width: 'auto' }}>
         <Link to={'/chalisha/hanumaan'}>
@@ -26,4 +19,12 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
+
+const Card = ({ imageUrl }) => {
+  return (
+    <div className="card">
+      <img src={imageUrl} className="card-image" />
+    </div>
+  );
+};
