@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chalisha/static/css/main.d3c62135.css",
-    "main.js": "/chalisha/static/js/main.f75038bd.js",
+    "main.css": "/chalisha/static/css/main.c3cf542c.css",
+    "main.js": "/chalisha/static/js/main.586a6484.js",
     "static/js/787.92a41e04.chunk.js": "/chalisha/static/js/787.92a41e04.chunk.js",
     "index.html": "/chalisha/index.html",
-    "main.d3c62135.css.map": "/chalisha/static/css/main.d3c62135.css.map",
-    "main.f75038bd.js.map": "/chalisha/static/js/main.f75038bd.js.map",
+    "main.c3cf542c.css.map": "/chalisha/static/css/main.c3cf542c.css.map",
+    "main.586a6484.js.map": "/chalisha/static/js/main.586a6484.js.map",
     "787.92a41e04.chunk.js.map": "/chalisha/static/js/787.92a41e04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3c62135.css",
-    "static/js/main.f75038bd.js"
+    "static/css/main.c3cf542c.css",
+    "static/js/main.586a6484.js"
   ]
 }
