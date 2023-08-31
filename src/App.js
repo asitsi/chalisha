@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Hanumaan />}/>
+        <Route path='/chalisha/hanumaan' element={<Hanumaan />}/>
         <Route path='/chalisha/shani' element={<Shani />}/>
         <Route path='chalisha/sani' element={<Shani />}/>
         <Route path='*' element={<Home />}/>
