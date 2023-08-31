@@ -25,7 +25,7 @@ const Hanumaan = () => {
                     </div>
                     <div className='row'>
                         {Chalisha.length > 0 && Chalisha.map((item, index) => {
-                            return <p key={index}>{item.chopai.split(" | ")[0]}<br /></p>
+                            return <p key={index} className='fontSize'>{item.chopai.split(" | ")[0]}<br /></p>
                         })}
                     </div>
 
