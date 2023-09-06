@@ -24,7 +24,7 @@ export default Home;
 const Card = ({ imageUrl }) => {
   return (
     <div className="card">
-      <img src={imageUrl} className="card-image" />
+      <img src={imageUrl} alt={`${imageUrl}`} className="card-image" />
     </div>
   );
 };
