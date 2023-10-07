@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
 import Card from '../components/Cards';
+import MantraImage from '../assests/image/mantra.png'
+import shaniDevImg from '../assests/image/shaniDevImg.jpg'
 
 const Home = () => {
   return (
@@ -43,15 +45,15 @@ const cardsData = [
     route: '/chalisha/hanumaan'
   },
   {
-    imageUrl: 'https://e1.pxfuel.com/desktop-wallpaper/873/825/desktop-wallpaper-dev-lord-shani-thumbnail.jpg',
+    imageUrl: `${shaniDevImg}`,
     route: '/chalisha/shani'
   },
   {
-    imageUrl: 'https://e1.pxfuel.com/desktop-wallpaper/873/825/desktop-wallpaper-dev-lord-shani-thumbnail.jpg',
+    imageUrl: `${shaniDevImg}`,
     route: '/chalisha/shani'
   },
   {
-    imageUrl: '../assests/image/mantra.png',
+    imageUrl: `${MantraImage}`,
     route: '/mantra/all'
   },
   // Add more cards here

@@ -41,10 +41,9 @@
 .mainCards {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 90vh;
   width: 100%;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 .container {
   padding-right: 15px;
@@ -74,6 +73,7 @@
 @media (max-width: 768px) {
   .mainCards {
     display: block;
+    height: 100%;
   }
 }
 
@@ -93,6 +93,7 @@
 
 .Heading {
   font-family: 'Young Serif', serif;
+  text-align: center;
 }
 
 .fontSize {
